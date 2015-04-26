@@ -1,5 +1,5 @@
 #include <stdlib.h>
-#include "discoStyle.h"
+#include "disco.h"
 
 struct DiscoGrid* initDiscoGrid(int Nx, int Nq)
 {

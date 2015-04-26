@@ -1,5 +1,5 @@
 #include <stdlib.h>
-#include "oneDStyle.h"
+#include "oneD.h"
 
 struct OneDGrid* initOneDGrid(int Nx, int Nq)
 {

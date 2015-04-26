@@ -1,8 +1,8 @@
 #include <stdio.h>
 #include <time.h>
-#include "discoStyle.h"
-#include "discoStatStyle.h"
-#include "oneDStyle.h"
+#include "disco.h"
+#include "discoStat.h"
+#include "oneD.h"
 
 int main(int argc, char *argv[])
 {
@@ -15,6 +15,7 @@ int main(int argc, char *argv[])
     {
         fprintf(stdout, "Perform speed tests on different grid structures.\n");
         fprintf(stdout, "usage: gridTest <Nx> <Nq> <reps>\n");
+        fprintf(stdout, "Version: %s\n", VERSION);
         return 0;
     }
 
@@ -23,8 +24,9 @@ int main(int argc, char *argv[])
     sscanf(argv[3], "%d", &reps);
 
     fprintf(stdout, "\nTesting things!\n");
+    fprintf(stdout, "Version: %s\n\n", VERSION);
     
-    fprintf(stdout, "\nRunning %d reps with Nx=%d Nq=%d.\n\n", reps, nx, nq);
+    fprintf(stdout, "Running %d reps with Nx=%d Nq=%d.\n\n", reps, nx, nq);
 
 
     // *** DISCO ***

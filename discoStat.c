@@ -1,5 +1,5 @@
 #include <stdlib.h>
-#include "discoStatStyle.h"
+#include "discoStat.h"
 
 struct DiscoStatGrid* initDiscoStatGrid(int Nx, int Nq)
 {
